@@ -1,0 +1,35 @@
+
+int pinLed1 = 13;
+int pinLed2 = 12;
+int pinLed3 = 11;
+int pinLed4 = 10;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(pinLed1, OUTPUT);
+  pinMode(pinLed2, OUTPUT);
+  pinMode(pinLed3, OUTPUT);
+  pinMode(pinLed4, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(pinLed1, HIGH);
+  Serial.println("LED MERAH");
+  delay(1500); // Jeda 1,5 detik
+  digitalWrite(pinLed1, LOW);
+
+  digitalWrite(pinLed2, HIGH);
+  Serial.println("LED HIJAU");
+  delay(1500); // Jeda 1,5 detik
+  digitalWrite(pinLed2, LOW);
+
+  digitalWrite(pinLed3, HIGH);
+  Serial.println("LED ABU");
+  delay(1500); // Jeda 1,5 detik
+  digitalWrite(pinLed3, LOW);
+
+  digitalWrite(pinLed4, HIGH);
+  Serial.println("LED BIRU");
+  delay(1500); // Jeda 1,5 detik
+  digitalWrite(pinLed4, LOW);
+}
