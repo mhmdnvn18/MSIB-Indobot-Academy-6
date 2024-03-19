@@ -1,18 +1,10 @@
-String Nama_saya  = "Muhammad Novian";
-String Kelas_saya = "LDR";
-/*Pemberian tipe data dan pengisian variabel*/
+unsigned int tinggi = 169; 
 
-void setup() 
-{
-  Serial.begin(9600);
+void setup(){
+Serial.begin(9600);
 }
-
-void loop() 
-{
-  Serial.print("Nama Lengkap: ");
-  Serial.println(Nama_saya);
-  delay(1000);
-  Serial.print("Kelas       : ");
-  Serial.println(Kelas_saya);
-  delay(1000);
+void loop(){
+Serial.print("tinggi badan ");
+Serial.println(tinggi);
+delay(1000);
 }
