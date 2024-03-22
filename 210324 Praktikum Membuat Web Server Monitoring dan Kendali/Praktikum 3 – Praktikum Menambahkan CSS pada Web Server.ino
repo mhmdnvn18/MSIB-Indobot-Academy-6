@@ -1,4 +1,4 @@
-<pre tabindex="0"><code class="language-c" data-lang="c">#include <ESP8266WiFi.h>
+#include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 
 //ESP Web Server Library to host a web page
@@ -47,8 +47,8 @@ p{font-family : Sans-serif;
 #define LED D2
 
 //SSID and Password of your WiFi router
-const char* ssid = "Isi nama WiFi yang digunakan";
-const char* password = "Password WiFi yang digunakan";
+const char* ssid = "HOKYA HOKYA";
+const char* password = "noconcibaotroshijos";
 
 //Declare a global object variable from the ESP8266WebServer class.
 ESP8266WebServer server(80); //Server on port 80
